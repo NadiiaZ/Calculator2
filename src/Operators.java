@@ -55,9 +55,7 @@ public class Operators
        if(idx >= 0 && idx < s.length() - 1)
        {
            if(s.charAt(idx) == ' ' && s.charAt(idx + 2) == ' ' && isOperator(s.charAt(idx + 1)))
-           {
                return true;
-           }
        }
        else
          return false;
