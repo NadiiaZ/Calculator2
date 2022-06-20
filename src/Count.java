@@ -40,8 +40,6 @@ public class Count {
         else
             _result =  chooseOperator(_op.charAt(_op.length() - 1), _mas[0], _mas[1]);
 
-        return;
-
     }
 
     private int chooseOperator(char ch, int _num1, int _num2)
@@ -68,7 +66,7 @@ public class Count {
                 }
                 else result = (_num1) /(_num2); break;
             }
-        };
+        }
         return result;
     }
 
@@ -82,10 +80,6 @@ public class Count {
        if(!_incorrect)
        {
            System.out.println("Result: "+ _result);
-           return;
        }
-
-       return;
    }
-
 }
